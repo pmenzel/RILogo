@@ -81,7 +81,7 @@ struct Config {
 	bool debugSVG;
 	bool log_colors;
 	bool no_M;
-
+	bool draw_legend_mi;
 };
 
 
@@ -172,6 +172,7 @@ int main(int argc, char **argv) {
 	config->debugSVG = false;
 	config->log_colors = false;
 	config->no_M = false;
+	config->draw_legend_mi = true;
 	
 	// hard coded defaults, can be overriden by config file
 	config->arcs_color_from = hex2rgb("#00ff00");
@@ -254,6 +255,7 @@ int main(int argc, char **argv) {
 			cf.readInto<bool>(no_chars, "no_chars");
 			cf.readInto<bool>(config->log_colors, "log_colors");
 			cf.readInto<bool>(config->no_M, "no_M");
+			cf.readInto<bool>(config->draw_legend_mi, "draw_legend_mi");
 
 		}
 	}
@@ -547,11 +549,13 @@ int main(int argc, char **argv) {
 	cout << "  .logoM{ fill:"<< rgb2css(config->color_M) << ";}" << endl;
 	cout << "]]>" << endl;
   cout << "</style>" << endl;
-	cout << "<linearGradient id=\"grad1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">" << endl;
-  cout <<	"<stop offset=\"0%\" style=\"stop-color:"<< getColor(config, 0.0) <<";stop-opacity:1\" />" << endl;
-  cout << "<stop offset=\"50%\" style=\"stop-color:"<< getColor(config, 0.5) <<";stop-opacity:1\" />" << endl; //NOTE: only one color in the middle!!
-  cout << "<stop offset=\"100%\" style=\"stop-color:"<< getColor(config, 1.0) << ";stop-opacity:1\" />" << endl;
-	cout <<	"</linearGradient>" << endl;
+	if(config->draw_legend_mi && (use_mi1 || use_mi2)) {
+		cout << "<linearGradient id=\"grad1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">" << endl;
+		cout <<	"<stop offset=\"0%\" style=\"stop-color:"<< getColor(config, 0.0) <<";stop-opacity:1\" />" << endl;
+		cout << "<stop offset=\"50%\" style=\"stop-color:"<< getColor(config, 0.5) <<";stop-opacity:1\" />" << endl; //NOTE: only one color in the middle!!
+		cout << "<stop offset=\"100%\" style=\"stop-color:"<< getColor(config, 1.0) << ";stop-opacity:1\" />" << endl;
+		cout <<	"</linearGradient>" << endl;
+	}
   cout << "</defs>" << endl;
 
 	cout << "<g transform=\"translate(" << space_left << ")\">" << endl;
@@ -654,7 +658,7 @@ int main(int argc, char **argv) {
 		}
 	}
 
-	if(use_mi1 || use_mi2) {
+	if(config->draw_legend_mi && (use_mi1 || use_mi2)) {
 		// draw a color gradient legend for mutual information
 		cout << "<text class=\"fontstyle\" x=\""<< -12  << "\" y=\"" << height - 9 << "\">" << "MI" << "</text>" << endl;
 		cout << "<rect x=\"" << 20   <<"\" y=\"" << height - legend << "\" width=\"60\" height=\"10\" rx=\"1\" ry=\"1\" style=\"fill:url(#grad1);stroke:#000000;stroke-width:1;\"/>" << endl;
@@ -662,6 +666,7 @@ int main(int argc, char **argv) {
 		//cout << "<text class=\"fontstyleruler\" style=\"text-anchor:middle;\" x=\""<< 50  << "\" y=\"" << height - 2  << "\">" << "0.5" << "</text>" << endl;
 		cout << "<text class=\"fontstyleruler\" style=\"text-anchor:end;\" x=\""<< 80  << "\" y=\"" << height - 2 << "\">" << (norm_treedist ? "2.0" : "2.2") << "</text>" << endl;
 	}
+
 	cout << "</g>" << endl;
 	cout << "</svg>" << endl;	
 
@@ -1787,13 +1792,11 @@ float readtreedistfile(std::istream & is, std::map<std::string,float> * treedist
 
 
 std::string getColor(Config * config, float value) {
-
-	// log transform,  x -> 1 + log(x)/7 
 	if(config->log_colors && value > 0.0) {
 		//(x+ log(x)/7 + 1)/2)
 		value = (value + log(value) / 7 + 1)/2;	
-
 	}
+	if(value < 0.0) value = 0.0;  // filter negative log results for veryyyy small values
 
 	struct rgb_color from_rgb = {config->arcs_color_from.r,config->arcs_color_from.g,config->arcs_color_from.b};
 	struct rgb_color to_rgb = {config->arcs_color_to.r,config->arcs_color_to.g,config->arcs_color_to.b};
