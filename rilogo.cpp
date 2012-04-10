@@ -215,6 +215,8 @@ int main(int argc, char **argv) {
 
 	if(!(mi_name == "mi" || mi_name == "miwp")) { usage(argv[0]); }
 
+	if(!use_tree) norm_treedist = true; // to make sure to use normal 2.0 scaling when no treeMI is used
+
 	if(optind < argc) { // is there an additional parameter for file name?
 		filename1 = argv[optind];
 		if(optind +1 < argc) {  // there is a second input file name parameter
@@ -787,7 +789,7 @@ void drawLogo(Config * config, int ** profile, float * mi, int length, int numse
 
 void drawLogoScale(Config * config, bool norm_treedist) {
 		string toplabel = "2.0";
-		if(norm_treedist && !config->no_M) toplabel = "2.2";
+		if(!norm_treedist && !config->no_M) toplabel = "2.2";
 		string middlelabel = norm_treedist ? "1.0" : "1.1";
 		cout << "<line width=\"1px\" stroke=\"#666\" x1=\"-3\" x2=\"-3\" y1=\""<< 0 << "\" y2=\""<< 30  <<"\"/>" << endl;
 		cout << "<line width=\"1px\" stroke=\"#666\" x1=\"-5\" x2=\"-3\" y1=\""<< 0 << "\" y2=\""<< 0  <<"\"/>" << endl;
