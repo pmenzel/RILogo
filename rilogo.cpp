@@ -664,7 +664,7 @@ int main(int argc, char **argv) {
 		cout << "<rect x=\"" << 20   <<"\" y=\"" << height - legend << "\" width=\"60\" height=\"10\" rx=\"1\" ry=\"1\" style=\"fill:url(#grad1);stroke:#000000;stroke-width:1;\"/>" << endl;
 		cout << "<text class=\"fontstyleruler\" style=\"text-anchor:start;\" x=\""<< 20  << "\" y=\"" << height - 2  << "\">" << "0" << "</text>" << endl;
 		//cout << "<text class=\"fontstyleruler\" style=\"text-anchor:middle;\" x=\""<< 50  << "\" y=\"" << height - 2  << "\">" << "0.5" << "</text>" << endl;
-		cout << "<text class=\"fontstyleruler\" style=\"text-anchor:end;\" x=\""<< 80  << "\" y=\"" << height - 2 << "\">" << (norm_treedist ? "2.0" : "2.2") << "</text>" << endl;
+		cout << "<text class=\"fontstyleruler\" style=\"text-anchor:end;\" x=\""<< 80  << "\" y=\"" << height - 2 << "\">" << "2.0" << "</text>" << endl;
 	}
 
 	cout << "</g>" << endl;
