@@ -157,7 +157,7 @@ int main(int argc, char **argv) {
 	int ruler_space = 6;
 	const string logo_font = "Verdana";
 	int space_right = 10;
-	int space_left = 15;
+	int space_left = 20;
 
 	// Modifiable options
 	bool no_chars = false; // when true, then there will be no logos or ACGT letter printed 
