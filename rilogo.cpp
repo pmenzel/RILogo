@@ -156,8 +156,8 @@ int main(int argc, char **argv) {
 	int arc_pushdown = 2;
 	int ruler_space = 6;
 	const string logo_font = "Verdana";
-	int space_right = 10;
-	int space_left = 20;
+	int space_right = 20;
+	int space_left = 35;
 
 	// Modifiable options
 	bool no_chars = false; // when true, then there will be no logos or ACGT letter printed 
@@ -539,6 +539,7 @@ int main(int argc, char **argv) {
 	cout << "<style type=\"text/css\"><![CDATA[" << endl;
 	cout << "  .outline{ fill:none; stroke:#0077bb; stroke-width:1 }" << endl;
 	cout << "  .fontstyle{ font-family:Verdana; font-size:"<<text_font_size<<"px }" << endl;
+	cout << "  .fontstyle53{ fill:#666; font-family:Verdana; font-size:9px }" << endl;
 	cout << "  .fontstylescale{ fill:#666; font-family:Verdana; font-size:5px }" << endl;
 	cout << "  .fontstyleruler{ fill:#666; font-family:Verdana; font-size:6px; text-anchor:middle;}" << endl;
 	cout << "  .fontstylelogo{ font-family:"<<logo_font<<"; font-size:"<<text_font_size<<"px }" << endl;
@@ -557,6 +558,7 @@ int main(int argc, char **argv) {
 		cout <<	"</linearGradient>" << endl;
 	}
   cout << "</defs>" << endl;
+  cout << "<rect x=\"0\" y=\"0\" width=\"" << width <<"\" height=\"" << height <<"\" style=\"fill:white;\"/>" << endl;
 
 	cout << "<g transform=\"translate(" << space_left << ")\">" << endl;
 
@@ -571,10 +573,17 @@ int main(int argc, char **argv) {
 	if(draw_logos1) {
 		cout << "<g transform=\"translate("<< offset1 << " " << y1t  <<")\">" << endl;
 			cout << "<g transform=\"translate("<< -2 << " " << 0  <<")\">" << endl;
-			drawLogoScale(config,norm_treedist);
+				cout << "<text class=\"fontstyle53\" y=\"18\" x=\"-28\">5'</text>" << endl;
+				cout << "<text class=\"fontstyle53\" y=\"18\" x=\""<< len_seq1*10 + 5 <<"\">3'</text>" << endl;
+				drawLogoScale(config,norm_treedist);
 			cout << "</g>" << endl;
 			drawLogo(config,profile1, mi1,ia1.length(),numseqs1, norm_treedist);
 		cout << "</g>" << endl;
+	}
+	else { // 5' and 3' labels
+			int y = (no_chars) ? 5 : 9;
+			cout << "<text class=\"fontstyle53\" y=\""<< y1t + y <<"\" x=\""<< offset1 -12 <<"\">5'</text>" << endl;
+			cout << "<text class=\"fontstyle53\" y=\""<< y1t + y <<"\" x=\""<< offset1 + len_seq1*10 + 3 <<"\">3'</text>" << endl;
 	}
 	for(int i = 0; i < len_seq1; i++) {
 		if(!draw_logos1) {
@@ -610,10 +619,17 @@ int main(int argc, char **argv) {
 	if(draw_logos2) {
 		cout << "<g transform=\"translate("<< offset2 << " " << y2r  <<")\">" << endl;
 			cout << "<g transform=\"translate("<< -2 << " " << 0  <<")\">" << endl;
+				cout << "<text class=\"fontstyle53\" y=\"18\" x=\"-28\">3'</text>" << endl;
+				cout << "<text class=\"fontstyle53\" y=\"18\" x=\""<< right_side + 15 <<"\">5'</text>" << endl;
 				drawLogoScale(config,norm_treedist);
 			cout << "</g>" << endl;
 			drawLogo(config,profile2, mi2,ia2.length(),numseqs2, norm_treedist);
 		cout << "</g>" << endl;
+	}
+	else { // 5' and 3' labels
+			int y = (no_chars) ? 0 : 8;
+			cout << "<text class=\"fontstyle53\" y=\""<< y2r + y <<"\" x=\""<< offset2 -12 <<"\">3'</text>" << endl;
+			cout << "<text class=\"fontstyle53\" y=\""<< y2r + y <<"\" x=\""<< offset2 + len_seq2*10 + 3 <<"\">5'</text>" << endl;
 	}
 	// draw intramolecular IAs 
 	for(int i = 0; i < len_seq2; i++) {
@@ -663,8 +679,8 @@ int main(int argc, char **argv) {
 		cout << "<text class=\"fontstyle\" x=\""<< -12  << "\" y=\"" << height - 9 << "\">" << "MI" << "</text>" << endl;
 		cout << "<rect x=\"" << 20   <<"\" y=\"" << height - legend << "\" width=\"60\" height=\"10\" rx=\"1\" ry=\"1\" style=\"fill:url(#grad1);stroke:#000000;stroke-width:1;\"/>" << endl;
 		cout << "<text class=\"fontstyleruler\" style=\"text-anchor:start;\" x=\""<< 20  << "\" y=\"" << height - 2  << "\">" << "0" << "</text>" << endl;
-		//cout << "<text class=\"fontstyleruler\" style=\"text-anchor:middle;\" x=\""<< 50  << "\" y=\"" << height - 2  << "\">" << "0.5" << "</text>" << endl;
 		cout << "<text class=\"fontstyleruler\" style=\"text-anchor:end;\" x=\""<< 80  << "\" y=\"" << height - 2 << "\">" << "2.0" << "</text>" << endl;
+		cout << "<text class=\"fontstyleruler\" style=\"text-anchor:start;\" x=\""<< -10  << "\" y=\"" << height - 2 << "\">" << "bits" << "</text>" << endl;
 	}
 
 	cout << "</g>" << endl;
@@ -803,6 +819,7 @@ void drawLogoScale(Config * config, bool norm_treedist) {
 		cout << "<text class=\"fontstylescale\" x=\"-15\" y=\"32\">0.0</text>" << endl;
 		cout << "<text class=\"fontstylescale\" x=\"-15\" y=\"2\">"<< toplabel <<"</text>" << endl;
 		cout << "<text class=\"fontstylescale\" x=\"-15\" y=\"17\">"<< middlelabel <<"</text>" << endl;
+		cout << "<text class=\"fontstylescale\" x=\"-15\" y=\"-5\">bits</text>" << endl;
 }
 
 int findHighestArc(std::map<int,int> &bp) {
@@ -1567,7 +1584,7 @@ void mutual_IC_1to2(int ** profile1, int ** profile2, std::map<int,int> *basepai
 		qBP = qBP/(float)(numseqs*numseqs);
 		if(qBP != 0 && pBP != 0)
 			mi[itcons->first]=pBP*(log(pBP/qBP)/log(2));
-		fprintf(stderr, "%i %6.4f %6.4f %6.4f\n", pair, pBP, qBP, mi[itcons->first]);
+		//fprintf(stderr, "%i %6.4f %6.4f %6.4f\n", pair, pBP, qBP, mi[itcons->first]);
 
 		// gap penalty [Lindgreen 2006]
 		if( bgap ) {
