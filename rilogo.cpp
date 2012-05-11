@@ -41,6 +41,7 @@
 #include <unistd.h>
 #include <algorithm>
 #include <vector>
+#include <exception>
 
 #include "ConfigFile.h"
 
@@ -292,12 +293,7 @@ int main(int argc, char **argv) {
 
 			// get profiles for union of organisms in both alignments
 			unionorganism(&seqs1, &seqs2, unionorg);
-			/*
-			if(config->debug) {
-				for(vector<string>::iterator it=unionorg.begin();it!=unionorg.end();it++)
-					cerr << " " << *it;
-				cerr << endl;
-			}*/
+			
 		}
 	}
 	else {  // try to read from STDIN
@@ -310,6 +306,11 @@ int main(int argc, char **argv) {
   len_seq1 = ia1.length();
   len_seq2 = ia2.length();
 
+	if(config->debug) {
+		for(vector<string>::iterator it=unionorg.begin();it!=unionorg.end();it++)
+			cerr << " " << *it;
+		cerr << endl;
+	}
 
 	// check if multiple sequences are there, then switch to logo mode
 	if(numseqs1 > 1) { 
@@ -371,7 +372,6 @@ int main(int argc, char **argv) {
 	// store weight, e.g. average distance in a tree, of each organism
 	// that will be used for calculating the mutual information content
 	map<string,float> weight;
-	float wsum = 0;
 	// initialize weight for the organisms in joint of both alignments with 1
 	initweight(&seqs1, &seqs2, &weight);
 
@@ -387,7 +387,16 @@ int main(int argc, char **argv) {
 			cerr << "Could not open file " << treedistfile << endl;
 			exit(EXIT_FAILURE);
 		}
-		treedistsum = readtreedistfile(treedistfile, &weight, unionorg);
+
+		try {
+			treedistsum = readtreedistfile(treedistfile, &weight, unionorg);
+		}
+		catch(string & s ) {
+			cerr << "The sequence with name " << s << " has no entry in the tree file." << endl;
+			treedistfile.close();
+			freeProfile<int>(profile1); freeProfile<int>(profile2); freeProfile<float>(unionorgprofile1); freeProfile<float>(unionorgprofile2);
+			exit(EXIT_FAILURE);
+		}
 		treedistfile.close();
 
 		if(!norm_treedist) treedistsum=1.;
@@ -395,13 +404,11 @@ int main(int argc, char **argv) {
 		if(config->debug)
 			for(map<string,float>::iterator it=weight.begin(); it!=weight.end(); ++it)
 				cerr << it->first << "\t" << it->second << endl;
-*/
-		for(map<string,float>::iterator itw=weight.begin(); itw!=weight.end(); itw++)
-			wsum += itw->second;
+		*/
 
 		getprofile(&seqs1, ia1.length(), unionorg, &weight, unionorgprofile1, false);
 		getprofile(&seqs2, ia2.length(), unionorg, &weight, unionorgprofile2, true);
-	/*	if(config->debug)
+		/*if(config->debug)
 			for(int i=0; i<5; i++) {
 				for(unsigned int j=0; j<ia1.length(); j++)
 					cerr << " " << unionorgprofile1[i][j];
@@ -1781,29 +1788,36 @@ float readtreedistfile(std::istream & is, std::map<std::string,float> * treedist
 	for(map<string,float>::iterator it = treedist->begin(); it != treedist->end(); ++it)
 			it->second = 0;
 
-	while(1) {
+	while(!is.eof()) {
 		getline(is, line);
-		if( is.eof() ) break;
 		stringstream linestream(line);
 		linestream >> name >> dist;
 		for(vector<string>::iterator itu=unionorg.begin(); itu!=unionorg.end(); ++itu)
 			if( itu->compare(name) == 0 ) {
-				for(map<string,float>::iterator it = treedist->begin(); it != treedist->end(); ++it)
+				if(treedist->count(name)>0) {
+					(*treedist)[name] = dist;
+					nd += dist;
+				}
+				break;
+			}
+		/*		for(map<string,float>::iterator it = treedist->begin(); it != treedist->end(); ++it)
 					if( (it->first).compare(name) == 0 ) {
 						it->second = dist;
 						nd += dist;
 						break;
-					}
-				break;
-			}
+					}*/
+	}
+
+	// Go through all names in unionorg and check if they have a tree distance now, otherwise exit
+	for(vector<string>::iterator itu=unionorg.begin(); itu!=unionorg.end(); itu++) {
+			if(treedist->count(*itu) == 0 || (treedist->count(*itu) == 1 && (*treedist)[*itu]  == 0.0)) throw *itu;
 	}
 
 	for(map<string,float>::iterator it = treedist->begin(); it != treedist->end(); ++it)
-			if( it->second != 0 ) {
-				it->second = (nd - it->second) / nd;
+			if( it->second != 0.0 ) {
+				it->second = (nd - it->second) / nd;  // this is the same as 1 - d_avg / nd
 				treedistsum += it->second;
 			}
-
 	return treedistsum;
 }
 
