@@ -375,7 +375,7 @@ int main(int argc, char **argv) {
 	// initialize weight for the organisms in joint of both alignments with 1
 	initweight(&seqs1, &seqs2, &weight);
 
-	float * mi1, * mi2, * miia;
+	float * mi1 = NULL, * mi2 = NULL, * miia = NULL;
 	bool use_mi1 = false, use_mi2 = false, use_miia = false;  //flags to indicate that MI is calculated, i.e. that there is a MSA as input
 
 
