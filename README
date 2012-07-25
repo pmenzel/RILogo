@@ -94,14 +94,15 @@ ACGTAGATGCAT&GCATCAGCATA
 >structure
 AA{{BBaa}}..&.(((bb)))..
 
+
 Command line parameters
 =======================
 -m NAME       Specify name of mutual information measure.
               Options are 'mi' and 'miwp'. Default is 'miwp'.
 -t FILENAME   Switch to treeMI or treeMI^WP (depending on parameter -m) measure and
               specify the name of the file with the average tree distances.
-							This file can be created with 'nw_avg_dist.pl'
-							from a phylogenetic tree in Newick format (uses BioPerl).
+              This file can be created with 'nw_avg_dist.pl'
+              from a phylogenetic tree in Newick format (uses BioPerl).
 -d            Debug mode
 -g            Debug mode for SVG output
 -v            Verbose mode, prints calculated MI values to STDERR
@@ -110,6 +111,7 @@ The script run_RILOGO_treeMI.sh can be used to calculate a tree from the input
 alignment, calculate the distances and then run RILogo.  It uses fasttree for
 calculating the tree, which must be installed and the path to fasttree must be
 set in the script.
+
 
 Output
 ======
@@ -120,8 +122,10 @@ post-processing/annotating etc.
 
 SVG files can easily converted to other file formats with common programs:
 * to EPS:  inkscape -z -f in.svg -E out.eps
-* to PNG:  convert in.svg out.png
-	or specifying a width: inkscape --export-png=out.png --export-width=800 in.svg
+* to PNG:  
+  with Inkscape:    inkscape --export-png=out.png --export-width=800 in.svg
+  with ImageMagick: convert in.svg out.png
+
 
 Configuration
 =============
@@ -129,6 +133,7 @@ Configuration
 RILogo can read a configuration file to customize the output.
 See the default.cfg file for the customizable parameters and their
 default values in RILogo.
+
 
 Version history
 ===============
