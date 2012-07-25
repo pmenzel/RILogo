@@ -1,6 +1,13 @@
 #!/bin/bash
+if [[ "$1" == "" ]]
+then
+	echo "Give one or two file names as argument."
+	exit
+fi
 
+# path to RILogo
 RILOGO='.'
+# path to Fasttree
 FASTTREE="/home/ptr/software/bin"
 
 FASTA1=$1
@@ -17,3 +24,5 @@ $FASTTREE/FastTree -gtr -nosupport -nt $FASTA1 > ${NAME1}.tmp
 $RILOGO/nw_avg_dist.pl ${NAME1}.tmp > ${NAME1}.treedist
 # run RILogo
 $RILOGO/RILogo $FASTA1 $FASTA2 -t ${NAME1}.treedist  > ${NAME1}_${NAME2}.svg
+
+
