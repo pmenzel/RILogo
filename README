@@ -103,6 +103,7 @@ Command line parameters
               specify the name of the file with the average tree distances.
               This file can be created with 'nw_avg_dist.pl'
               from a phylogenetic tree in Newick format (uses BioPerl).
+-w            Use N_d instead of N in the weighting of observed and expected base pair frequencies.
 -d            Debug mode
 -g            Debug mode for SVG output
 -v            Verbose mode, prints calculated MI values to STDERR

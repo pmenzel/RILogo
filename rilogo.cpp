@@ -2021,10 +2021,10 @@ char index2char(int i) {
 void usage(char *progname) { 
   fprintf(stderr, "Usage:\n   %s [options] inputfile1.fa [inputfile2.fa]\n", progname);
   fprintf(stderr, "Options are:\n");
-  fprintf(stderr, "   -m NAME       Specify name of mutual information measure. Options are 'mi' and 'miwp'. Default is 'miwp'.\n");
-  fprintf(stderr, "   -t FILENAME   Specify name of file with average tree distances, e.g. created with 'nw_avg_dist.pl'.\n");
-  fprintf(stderr, "   -w            Weighting of p_ij(ab) is done by the sum of the C^x instead of N\n");
-  fprintf(stderr, "   -c FILENAME   Specify name of config file\n");
+  fprintf(stderr, "   -m NAME       Name of mutual information measure. Options are 'mi' and 'miwp'. Default is 'miwp'.\n");
+  fprintf(stderr, "   -t FILENAME   Switch to treeMI or treeMI^WP (depending on parameter -m) measure and specify the name of the file with the average tree distances.\n");
+  fprintf(stderr, "   -w            Use N_d instead of N in the weighting of observed and expected base pair frequencies.\n");
+  fprintf(stderr, "   -c FILENAME   Name of config file\n");
   fprintf(stderr, "   -d            Debug mode\n");
   fprintf(stderr, "   -g            Debug mode for SVG output\n");
   fprintf(stderr, "   -v            Verbose mode, prints calculated MI values to STDERR\n");
