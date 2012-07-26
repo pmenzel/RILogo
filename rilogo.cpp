@@ -171,7 +171,7 @@ int main(int argc, char **argv) {
   Config * config = new Config;
 	config->debug = false;
 	config->debugSVG = false;
-	config->log_colors = false;
+	config->log_colors = true;
 	config->no_M = false;
 	config->draw_legend_mi = true;
 	
@@ -441,7 +441,7 @@ int main(int argc, char **argv) {
 		else {
 			mutual_IC(profile1, &bp1, &seqs1, len_seq1, numseqs1, mi1, false, mi_name);
 		}
-		if(verbose) { cerr << "MI for 1st alignment:"<< endl; for(int i=0; i<len_seq1; i++) if(mi1[i]) fprintf(stderr, "col=%i MI=%1.4f\n",i, mi1[i]*2); }
+		if(verbose) { cerr << "MI for 1st alignment:"<< endl; for(int i=0; i<len_seq1; i++) if(mi1[i] > 0.0) fprintf(stderr, "col=%i MI=%1.4f\n",i+1, mi1[i]*2); }
 	}
 
 	if(numseqs2 > 1) {
@@ -453,7 +453,7 @@ int main(int argc, char **argv) {
 		else {
 			mutual_IC(profile2, &bp2, &seqs2, len_seq2, numseqs2, mi2, true, mi_name);
 		}
-		if(verbose) { cerr << "MI for 2nd alignment:"<< endl; for(int i=0; i<len_seq2; i++) if(mi2[len_seq2 - i -1] > 0.0) fprintf(stderr, "col=%i MI=%1.4f\n",i, mi2[len_seq2 - i -1]*2); }
+		if(verbose) { cerr << "MI for 2nd alignment:"<< endl; for(int i=0; i<len_seq2; i++) if(mi2[len_seq2 - i -1] > 0.0) fprintf(stderr, "col=%i MI=%1.4f\n",i+1, mi2[len_seq2 - i -1]*2); }
 	}
 
 	if(numseqs1 > 1 && numseqs2 > 1) {
@@ -465,7 +465,7 @@ int main(int argc, char **argv) {
 		else {
 			mutual_IC_1to2(profile1, profile2, &bp1to2, &seqs1, &seqs2, len_seq1, len_seq2, numseqs1, miia, mi_name);
 		}
-		if(verbose) { cerr << "MI for interaction:"<< endl; for(int i=0; i<len_seq1; i++)  if(miia[i] > 0.0)  fprintf(stderr, "col1=%i col2=%i MI=%1.4f\n",i, bp1to2[i], miia[i]*2);  }
+		if(verbose) { cerr << "MI for interaction:"<< endl; for(int i=0; i<len_seq1; i++)  if(miia[i] > 0.0)  fprintf(stderr, "col1=%i col2=%i MI=%1.4f\n",i+1, bp1to2[i]+1, miia[i]*2);  }
 
 		// add the MI from the interaction to the other two arrays 
 		// remember that miwp2 is reversed
