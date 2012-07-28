@@ -871,15 +871,15 @@ void readinputonefile(istream & is, std::string & seq1, std::string & seq2, std:
 			else { //normal sequence line
 				read_seq = true;
 				string n = line.substr(1);
-				curr_name = trim(n, " \r\t\n");
+				curr_name = trim(n, " \r\t\n\v\f\b");
 			}
 		}
 		else if(read_structure) {
 			//append to structure line
-			ia_line += trim(line, " \r\t\n");
+			ia_line += trim(line, " \r\t\n\v\f\b");
 		}
 		else if(read_seq) {
-			seq_line += trim(line," \r\t\n");
+			seq_line += trim(line," \r\t\n\v\f\b");
 		}
 	}
 
@@ -1013,15 +1013,16 @@ void readinput(std::istream & is, std::string & seq, std::map<std::string,std::s
 			}
 			else { //normal sequence line
 				read_seq = true;
-				curr_name = line.substr(1);
+				string n = line.substr(1);
+				curr_name = trim(n, " \r\t\n\v\f\b");
 			}
 		}
 		else if(read_structure) {
 			//append to structure line
-			ia_line += trim(line, " \t\n");
+			ia_line += trim(line, " \r\t\n\v\f\b");
 		}
 		else if(read_seq) {
-			seq_line += trim(line," \t\n");
+			seq_line += trim(line," \r\t\n\v\f\b");
 		}
 	}
 
