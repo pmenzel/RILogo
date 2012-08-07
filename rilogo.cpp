@@ -356,7 +356,7 @@ int main(int argc, char **argv) {
 				}
 
 				//  map from 1st to 2nd sequence:
-				inter_IA = inter_IA || findPairsIA((ia1+ia2).c_str(), len_seq1+len_seq2, len_seq1 , &bp1to2, upper, c);
+				inter_IA = inter_IA | findPairsIA((ia1+ia2).c_str(), len_seq1+len_seq2, len_seq1 , &bp1to2, upper, c);
 			}
 			else { // only in first
 				findPairs(ia1.c_str(), len_seq1, &bp1, upper, c);
