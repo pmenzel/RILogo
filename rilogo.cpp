@@ -59,13 +59,13 @@
 
 
 struct rgb_color {
-    double r, g, b;    /* Channel intensities between 0.0 and 1.0 */
+    float r, g, b;    /* Channel intensities between 0.0 and 1.0 */
 };
 
 struct hsv_color {
-    double h;        /* Hue degree between 0.0 and 360.0 */
-    double s;        /* Saturation between 0.0 (gray) and 1.0 */
-    double v;        /* Value between 0.0 (black) and 1.0 */
+    float h;        /* Hue degree between 0.0 and 360.0 */
+    float s;        /* Saturation between 0.0 (gray) and 1.0 */
+    float v;        /* Value between 0.0 (black) and 1.0 */
 };
 
 
@@ -1873,7 +1873,7 @@ struct hsv_color hsv_gradient(hsv_color from, hsv_color to, float percentage) { 
 struct hsv_color rgb_to_hsv(struct rgb_color rgb) {
 	 // adopted from http://en.literateprograms.org/RGB_to_HSV_color_space_conversion_%28C%29
     hsv_color hsv;
-    double rgb_min, rgb_max;
+    float rgb_min, rgb_max;
     rgb_min = MIN3(rgb.r, rgb.g, rgb.b);
     rgb_max = MAX3(rgb.r, rgb.g, rgb.b);
 
