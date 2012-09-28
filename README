@@ -12,14 +12,15 @@ Description
 ===========
 
 RILogo is a command line program to create an RNA-RNA interaction logo from a
-pair of RNA sequences or alignments. If alignments are given as input, then
-RILogo displays them as sequence logos. Intramolecular base pairs are displayed
-by arcs connecting the corresponding columns of the sequence logo.
-Intermolecular base pairs are denoted by connecting lines between both logos.
+pair of RNA sequences or alignments and outputs an SVG file.
+If alignments are given as input, then RILogo displays them as sequence logos.
+Intramolecular base pairs are displayed by arcs connecting the corresponding
+columns of the sequence logo.  Intermolecular base pairs are denoted by
+connecting lines between both logos.
 
 RILogo calculates the mutual information for base pairs and displays it through
-a color gradient in the arcs and the lines. Additionally an 'M' character is
-placed in the sequences logos.
+a color gradient in the connecting arcs and lines.  Additionally an 'M'
+character is placed on top of the other 4 letters in the sequences logos.
 
 A web server is available at: http://rth.dk/resources/rilogo
 
@@ -141,7 +142,7 @@ Version history
 
 v1.0
 ----
-+ first published published version
++ first published version
 
 
 
