@@ -1,7 +1,7 @@
 # RILogo
 
-Authors:
-Peter Menzel <pmenzel@gmail.com>
+Authors:  
+Peter Menzel <pmenzel@gmail.com>  
 Stefan Seemann <seemann@rth.dk>
 
 Copyright 2012,2018 Peter Menzel, see file LICENCE
@@ -22,12 +22,12 @@ character is placed on top of the other 4 letters in the sequences logos.
 
 The source code of RILogo is available at http://github.com/pmenzel/RILogo
 
-A web server is available: http://rth.dk/resources/rilogo
+A web server is available at http://rth.dk/resources/rilogo
 
-The paper for RILogo is published as:  
+RILogo is published in:  
 P. Menzel, S.E. Seemann, J. Gorodkin  
-[http://www.ncbi.nlm.nih.gov/pubmed/22826541](RILogo: Visualising RNA-RNA interactions)  
-Bioinfomatics, 2012.
+[RILogo: Visualising RNA-RNA interactions](http://www.ncbi.nlm.nih.gov/pubmed/22826541)  
+Bioinfomatics, 2012 Oct 1;28(19):2523-6
 
 
 RILogo is distributed as open source software under the GNU Lesser General
@@ -108,6 +108,7 @@ is in the file `fhlA-OxyS.svg`.
 -t FILENAME   Switch to treeMI or treeMI^WP (depending on parameter -m) measure and
               specify the name of the file with the average tree distances.
 -w            Use N_d instead of N in the weighting of observed and expected base pair frequencies.
+-c FILENAME   Read configuration from file.
 -d            Debug mode
 -g            Debug mode for SVG output
 -v            Verbose mode, prints calculated MI values to STDERR
@@ -132,7 +133,7 @@ convert in.svg out.png
 
 ## Configuration
 
-RILogo can read a configuration file to customise the output.
+RILogo can read a configuration file using option `-c` to customise the output.
 See `default.cfg` for the customisable parameters and their
 default values in RILogo.
 
