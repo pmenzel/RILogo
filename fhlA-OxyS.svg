@@ -1,0 +1,1728 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1325" height="390">
+<defs>
+<style type="text/css"><![CDATA[
+  .outline{ fill:none; stroke:#0077bb; stroke-width:1 }
+  .fontstyle{ font-family:Verdana; font-size:12px }
+  .fontstyle53{ fill:#666; font-family:Verdana; font-size:9px }
+  .fontstylescale{ fill:#666; font-family:Verdana; font-size:5px }
+  .fontstyleruler{ fill:#666; font-family:Verdana; font-size:6px; text-anchor:middle;}
+  .fontstylelogo{ font-family:Verdana; font-size:12px }
+  .logoA{ fill:rgb(20,224,26);}
+  .logoC{ fill:rgb(0,127,255);}
+  .logoG{ fill:rgb(255,99,33);}
+  .logoU{ fill:rgb(183,20,11);}
+  .logoM{ fill:rgb(7,87,11);}
+]]>
+</style>
+<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" style="stop-color:rgb(0,255,0);stop-opacity:1" />
+<stop offset="50%" style="stop-color:rgb(255,153,0);stop-opacity:1" />
+<stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1325" height="390" style="fill:white;"/>
+<g transform="translate(35)">
+<g transform="translate(0 123)">
+<g transform="translate(-2 0)">
+<text class="fontstyle53" y="18" x="-28">5'</text>
+<text class="fontstyle53" y="18" x="1095">3'</text>
+<line width="1px" stroke="#666" x1="-3" x2="-3" y1="0" y2="30"/>
+<line width="1px" stroke="#666" x1="-5" x2="-3" y1="0" y2="0"/>
+<line width="1px" stroke="#666" x1="-5" x2="-3" y1="15" y2="15"/>
+<line width="1px" stroke="#666" x1="-5" x2="-3" y1="30" y2="30"/>
+<text class="fontstylescale" x="-15" y="32">0.0</text>
+<text class="fontstylescale" x="-15" y="2">2.2</text>
+<text class="fontstylescale" x="-15" y="17">1.1</text>
+<text class="fontstylescale" x="-15" y="-5">bits</text>
+</g>
+<g transform="translate(0 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.607573)">A</text>
+</g>
+<g transform="translate(0 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.01262)">G</text>
+</g>
+<g transform="translate(0 15.7423)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.351956)">M</text>
+</g>
+<g transform="translate(10 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.607573)">G</text>
+</g>
+<g transform="translate(10 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.01262)">A</text>
+</g>
+<g transform="translate(10 15.7423)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.717768)">M</text>
+</g>
+<g transform="translate(20 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(20 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(30 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.460507)">C</text>
+</g>
+<g transform="translate(30 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.38152)">A</text>
+</g>
+<g transform="translate(30 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.543146)">M</text>
+</g>
+<g transform="translate(40 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.460507)">G</text>
+</g>
+<g transform="translate(40 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.38152)">C</text>
+</g>
+<g transform="translate(40 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.407063)">M</text>
+</g>
+<g transform="translate(50 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.282109)">A</text>
+</g>
+<g transform="translate(50 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(50 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.207096)">M</text>
+</g>
+<g transform="translate(60 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,2.48322)">G</text>
+</g>
+<g transform="translate(60 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(70 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.96262)">A</text>
+</g>
+<g transform="translate(80 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,2.48322)">G</text>
+</g>
+<g transform="translate(80 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(90 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,2.48322)">C</text>
+</g>
+<g transform="translate(90 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(100 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,2.48322)">G</text>
+</g>
+<g transform="translate(100 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(110 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,2.48322)">G</text>
+</g>
+<g transform="translate(110 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(120 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.254466)">U</text>
+</g>
+<g transform="translate(120 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.52679)">C</text>
+</g>
+<g transform="translate(130 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.254466)">U</text>
+</g>
+<g transform="translate(130 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.52679)">A</text>
+</g>
+<g transform="translate(130 14.3249)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.347509)">M</text>
+</g>
+<g transform="translate(140 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.254466)">U</text>
+</g>
+<g transform="translate(140 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.52679)">C</text>
+</g>
+<g transform="translate(140 14.3249)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(150 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.254466)">G</text>
+</g>
+<g transform="translate(150 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.52679)">C</text>
+</g>
+<g transform="translate(160 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,2.48322)">U</text>
+</g>
+<g transform="translate(160 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(170 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.96262)">C</text>
+</g>
+<g transform="translate(180 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.160035)">A</text>
+</g>
+<g transform="translate(180 28.5917)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.160035)">G</text>
+</g>
+<g transform="translate(180 27.1834)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.800173)">U</text>
+</g>
+<g transform="translate(190 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,2.48322)">U</text>
+</g>
+<g transform="translate(200 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,2.48322)">U</text>
+</g>
+<g transform="translate(210 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,2.48322)">U</text>
+</g>
+<g transform="translate(210 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(220 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.254466)">G</text>
+</g>
+<g transform="translate(220 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.52679)">A</text>
+</g>
+<g transform="translate(220 14.3249)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131897)">M</text>
+</g>
+<g transform="translate(230 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,2.48322)">A</text>
+</g>
+<g transform="translate(230 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0790632)">M</text>
+</g>
+<g transform="translate(240 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,2.48322)">C</text>
+</g>
+<g transform="translate(250 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,2.48322)">C</text>
+</g>
+<g transform="translate(250 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(260 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,2.48322)">C</text>
+</g>
+<g transform="translate(260 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(270 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,2.48322)">U</text>
+</g>
+<g transform="translate(270 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(280 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,2.48322)">U</text>
+</g>
+<g transform="translate(280 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(290 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,2.48322)">G</text>
+</g>
+<g transform="translate(290 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(300 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,2.48322)">A</text>
+</g>
+<g transform="translate(300 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(310 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.254466)">C</text>
+</g>
+<g transform="translate(310 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.52679)">A</text>
+</g>
+<g transform="translate(320 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,2.48322)">G</text>
+</g>
+<g transform="translate(320 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(330 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.254466)">A</text>
+</g>
+<g transform="translate(330 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.52679)">U</text>
+</g>
+<g transform="translate(330 14.3249)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.347509)">M</text>
+</g>
+<g transform="translate(340 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,2.48322)">C</text>
+</g>
+<g transform="translate(350 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.254466)">C</text>
+</g>
+<g transform="translate(350 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.52679)">A</text>
+</g>
+<g transform="translate(360 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,2.48322)">C</text>
+</g>
+<g transform="translate(360 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(370 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.416918)">C</text>
+</g>
+<g transform="translate(370 26.3311)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.0423)">U</text>
+</g>
+<g transform="translate(370 17.1589)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(380 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,2.48322)">G</text>
+</g>
+<g transform="translate(380 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(390 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,2.48322)">C</text>
+</g>
+<g transform="translate(390 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(400 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,2.48322)">C</text>
+</g>
+<g transform="translate(400 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(410 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.282109)">G</text>
+</g>
+<g transform="translate(410 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(410 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.207096)">M</text>
+</g>
+<g transform="translate(420 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.181829)">A</text>
+</g>
+<g transform="translate(420 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(420 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.09097)">G</text>
+</g>
+<g transform="translate(420 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.407063)">M</text>
+</g>
+<g transform="translate(430 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.460507)">G</text>
+</g>
+<g transform="translate(430 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.38152)">U</text>
+</g>
+<g transform="translate(430 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.543146)">M</text>
+</g>
+<g transform="translate(440 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(440 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(450 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.607573)">C</text>
+</g>
+<g transform="translate(450 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.01262)">U</text>
+</g>
+<g transform="translate(450 15.7423)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.717768)">M</text>
+</g>
+<g transform="translate(460 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.607573)">A</text>
+</g>
+<g transform="translate(460 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.01262)">C</text>
+</g>
+<g transform="translate(460 15.7423)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.351956)">M</text>
+</g>
+<g transform="translate(470 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.282109)">C</text>
+</g>
+<g transform="translate(470 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(480 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(490 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.282109)">C</text>
+</g>
+<g transform="translate(490 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(490 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0981681)">M</text>
+</g>
+<g transform="translate(500 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.181829)">G</text>
+</g>
+<g transform="translate(500 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.181829)">U</text>
+</g>
+<g transform="translate(500 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.09097)">A</text>
+</g>
+<g transform="translate(500 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.424552)">M</text>
+</g>
+<g transform="translate(510 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(510 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(520 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(520 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(530 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.282109)">A</text>
+</g>
+<g transform="translate(530 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.97476)">U</text>
+</g>
+<g transform="translate(540 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(550 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.282109)">A</text>
+</g>
+<g transform="translate(550 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(560 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(570 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(580 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(580 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.97476)">A</text>
+</g>
+<g transform="translate(590 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(590 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(600 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(600 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(610 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.460507)">C</text>
+</g>
+<g transform="translate(610 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.38152)">U</text>
+</g>
+<g transform="translate(610 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.424552)">M</text>
+</g>
+<g transform="translate(620 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(620 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0981681)">M</text>
+</g>
+<g transform="translate(630 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(640 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(650 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(660 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.460507)">C</text>
+</g>
+<g transform="translate(660 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.38152)">U</text>
+</g>
+<g transform="translate(670 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(680 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(690 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(700 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(710 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(720 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(730 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(740 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(750 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(760 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(770 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(780 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(790 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(800 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(810 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(820 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(830 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(840 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(850 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(860 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(870 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(880 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(890 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(900 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(900 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(910 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(910 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(920 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(920 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(930 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(930 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(940 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(940 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(950 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.607573)">C</text>
+</g>
+<g transform="translate(950 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.01262)">U</text>
+</g>
+<g transform="translate(960 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(970 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.282109)">C</text>
+</g>
+<g transform="translate(970 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.97476)">U</text>
+</g>
+<g transform="translate(970 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.341198)">M</text>
+</g>
+<g transform="translate(980 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(980 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(980 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0975002)">M</text>
+</g>
+<g transform="translate(990 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.52654)">C</text>
+</g>
+<g transform="translate(1000 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.232671)">G</text>
+</g>
+<g transform="translate(1000 27.9525)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.16336)">A</text>
+</g>
+<g transform="translate(1010 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.460507)">U</text>
+</g>
+<g transform="translate(1010 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.38152)">G</text>
+</g>
+<g transform="translate(1010 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0839543)">M</text>
+</g>
+<g transform="translate(1020 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.282109)">C</text>
+</g>
+<g transform="translate(1020 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(1020 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0981681)">M</text>
+</g>
+<g transform="translate(1030 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.607573)">G</text>
+</g>
+<g transform="translate(1030 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.01262)">A</text>
+</g>
+<g transform="translate(1030 15.7423)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(1040 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(1040 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(1050 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(1050 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(1060 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(1060 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(1070 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(1070 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(1080 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(1080 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+</g>
+<path style="stroke:rgb(255,251,0)" class="outline" d="M 5,122 A230,115 0 1,1 465,122"/>
+<path style="stroke:rgb(255,165,0)" class="outline" d="M 15,122 A220,110 0 1,1 455,122"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 25,122 A210,105 0 1,1 445,122"/>
+<path style="stroke:rgb(255,204,0)" class="outline" d="M 35,122 A200,100 0 1,1 435,122"/>
+<path style="stroke:rgb(255,237,0)" class="outline" d="M 45,122 A190,95 0 1,1 425,122"/>
+<path style="stroke:rgb(216,255,0)" class="outline" d="M 55,122 A180,90 0 1,1 415,122"/>
+<path style="stroke:rgb(175,255,0)" class="outline" d="M 65,122 A170,85 0 1,1 405,122"/>
+<path style="stroke:rgb(175,255,0)" class="outline" d="M 85,122 A155,77 0 1,1 395,122"/>
+<path style="stroke:rgb(175,255,0)" class="outline" d="M 95,122 A145,72 0 1,1 385,122"/>
+<path style="stroke:rgb(175,255,0)" class="outline" d="M 105,122 A135,67 0 1,1 375,122"/>
+<path style="stroke:rgb(175,255,0)" class="outline" d="M 115,122 A125,62 0 1,1 365,122"/>
+<path style="stroke:rgb(255,252,0)" class="outline" d="M 135,122 A100,50 0 1,1 335,122"/>
+<path style="stroke:rgb(175,255,0)" class="outline" d="M 145,122 A90,45 0 1,1 325,122"/>
+<path style="stroke:rgb(175,255,0)" class="outline" d="M 165,122 A70,35 0 1,1 305,122"/>
+<path style="stroke:rgb(171,255,0)" class="outline" d="M 495,122 A65,32 0 1,1 625,122"/>
+<path style="stroke:rgb(255,232,0)" class="outline" d="M 505,122 A55,27 0 1,1 615,122"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 515,122 A45,22 0 1,1 605,122"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 525,122 A35,17 0 1,1 595,122"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 905,122 A90,45 0 1,1 1085,122"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 915,122 A80,40 0 1,1 1075,122"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 925,122 A70,35 0 1,1 1065,122"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 935,122 A60,30 0 1,1 1055,122"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 945,122 A50,25 0 1,1 1045,122"/>
+<g transform="translate(140 208)">
+<g transform="translate(-2 0)">
+<text class="fontstyle53" y="18" x="-28">3'</text>
+<text class="fontstyle53" y="18" x="1135">5'</text>
+<line width="1px" stroke="#666" x1="-3" x2="-3" y1="0" y2="30"/>
+<line width="1px" stroke="#666" x1="-5" x2="-3" y1="0" y2="0"/>
+<line width="1px" stroke="#666" x1="-5" x2="-3" y1="15" y2="15"/>
+<line width="1px" stroke="#666" x1="-5" x2="-3" y1="30" y2="30"/>
+<text class="fontstylescale" x="-15" y="32">0.0</text>
+<text class="fontstylescale" x="-15" y="2">2.2</text>
+<text class="fontstylescale" x="-15" y="17">1.1</text>
+<text class="fontstylescale" x="-15" y="-5">bits</text>
+</g>
+<g transform="translate(0 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(0 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.181829)">U</text>
+</g>
+<g transform="translate(0 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.09097)">A</text>
+</g>
+<g transform="translate(10 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(10 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(20 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.282109)">C</text>
+</g>
+<g transform="translate(20 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.97476)">A</text>
+</g>
+<g transform="translate(30 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(30 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.181829)">U</text>
+</g>
+<g transform="translate(30 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.09097)">G</text>
+</g>
+<g transform="translate(40 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(40 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(50 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(50 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(60 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(60 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.181829)">G</text>
+</g>
+<g transform="translate(60 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.09097)">U</text>
+</g>
+<g transform="translate(60 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0853059)">M</text>
+</g>
+<g transform="translate(70 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(70 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(80 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(80 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0717597)">M</text>
+</g>
+<g transform="translate(90 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(90 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(90 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(100 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(100 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(110 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(110 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(120 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.607573)">U</text>
+</g>
+<g transform="translate(120 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.01262)">C</text>
+</g>
+<g transform="translate(130 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(130 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(140 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(140 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(150 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(150 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(160 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(160 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(170 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(170 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0981681)">M</text>
+</g>
+<g transform="translate(180 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(180 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(190 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(190 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131897)">M</text>
+</g>
+<g transform="translate(200 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.460507)">C</text>
+</g>
+<g transform="translate(200 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.38152)">U</text>
+</g>
+<g transform="translate(200 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0790632)">M</text>
+</g>
+<g transform="translate(210 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.282109)">C</text>
+</g>
+<g transform="translate(210 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(220 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(220 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(230 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(230 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(240 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.282109)">G</text>
+</g>
+<g transform="translate(240 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.97476)">A</text>
+</g>
+<g transform="translate(240 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.105587)">M</text>
+</g>
+<g transform="translate(250 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(250 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(260 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(260 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.00131888)">M</text>
+</g>
+<g transform="translate(270 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.282109)">A</text>
+</g>
+<g transform="translate(270 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(280 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(290 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(300 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.282109)">C</text>
+</g>
+<g transform="translate(300 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.97476)">A</text>
+</g>
+<g transform="translate(300 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0981681)">M</text>
+</g>
+<g transform="translate(310 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(310 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(320 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(320 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(330 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.460507)">U</text>
+</g>
+<g transform="translate(330 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.38152)">C</text>
+</g>
+<g transform="translate(330 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(340 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(340 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(350 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(360 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(360 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(370 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(370 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(380 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(380 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(390 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.607573)">C</text>
+</g>
+<g transform="translate(390 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.01262)">U</text>
+</g>
+<g transform="translate(390 15.7423)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0717597)">M</text>
+</g>
+<g transform="translate(400 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(400 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(410 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(410 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0853059)">M</text>
+</g>
+<g transform="translate(420 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(420 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(430 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(430 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(440 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(450 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.282109)">C</text>
+</g>
+<g transform="translate(450 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(460 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(470 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(480 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(490 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(500 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(510 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(520 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(530 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(530 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0981681)">M</text>
+</g>
+<g transform="translate(540 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.607573)">G</text>
+</g>
+<g transform="translate(540 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.01262)">A</text>
+</g>
+<g transform="translate(540 15.7423)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.717768)">M</text>
+</g>
+<g transform="translate(550 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,3.09917)">C</text>
+</g>
+<g transform="translate(550 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0839543)">M</text>
+</g>
+<g transform="translate(560 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(560 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0853059)">M</text>
+</g>
+<g transform="translate(570 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(570 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(580 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(590 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(590 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.000651075)">M</text>
+</g>
+<g transform="translate(600 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(600 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.181829)">U</text>
+</g>
+<g transform="translate(600 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.09097)">A</text>
+</g>
+<g transform="translate(600 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0814744)">M</text>
+</g>
+<g transform="translate(610 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.282109)">C</text>
+</g>
+<g transform="translate(610 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.97476)">A</text>
+</g>
+<g transform="translate(610 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0790632)">M</text>
+</g>
+<g transform="translate(620 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.282109)">G</text>
+</g>
+<g transform="translate(620 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.97476)">A</text>
+</g>
+<g transform="translate(630 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.282109)">A</text>
+</g>
+<g transform="translate(630 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(640 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.460507)">G</text>
+</g>
+<g transform="translate(640 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.38152)">A</text>
+</g>
+<g transform="translate(650 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(650 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.97476)">A</text>
+</g>
+<g transform="translate(660 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.460507)">A</text>
+</g>
+<g transform="translate(660 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.38152)">G</text>
+</g>
+<g transform="translate(660 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.265158)">M</text>
+</g>
+<g transform="translate(670 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(670 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.181829)">G</text>
+</g>
+<g transform="translate(670 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.09097)">A</text>
+</g>
+<g transform="translate(670 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.284587)">M</text>
+</g>
+<g transform="translate(680 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.282109)">G</text>
+</g>
+<g transform="translate(680 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.97476)">A</text>
+</g>
+<g transform="translate(680 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.341198)">M</text>
+</g>
+<g transform="translate(690 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(690 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(690 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0975002)">M</text>
+</g>
+<g transform="translate(700 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(700 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(710 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(720 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(720 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(720 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0839543)">M</text>
+</g>
+<g transform="translate(730 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.460507)">U</text>
+</g>
+<g transform="translate(730 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.38152)">C</text>
+</g>
+<g transform="translate(730 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0981681)">M</text>
+</g>
+<g transform="translate(740 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(740 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(750 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.282109)">G</text>
+</g>
+<g transform="translate(750 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.97476)">U</text>
+</g>
+<g transform="translate(760 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(760 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.181829)">G</text>
+</g>
+<g transform="translate(760 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.09097)">U</text>
+</g>
+<g transform="translate(760 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.284587)">M</text>
+</g>
+<g transform="translate(770 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.181829)">G</text>
+</g>
+<g transform="translate(770 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.181829)">U</text>
+</g>
+<g transform="translate(770 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.09097)">C</text>
+</g>
+<g transform="translate(770 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.265158)">M</text>
+</g>
+<g transform="translate(780 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.135822)">A</text>
+</g>
+<g transform="translate(780 28.8048)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.271644)">C</text>
+</g>
+<g transform="translate(780 26.4143)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.679111)">G</text>
+</g>
+<g transform="translate(780 20.4381)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0555726)">M</text>
+</g>
+<g transform="translate(790 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(790 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.181829)">G</text>
+</g>
+<g transform="translate(790 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.09097)">U</text>
+</g>
+<g transform="translate(790 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.187738)">M</text>
+</g>
+<g transform="translate(800 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,3.09917)">G</text>
+</g>
+<g transform="translate(800 2.72727)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(810 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(810 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.181829)">U</text>
+</g>
+<g transform="translate(810 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.09097)">G</text>
+</g>
+<g transform="translate(810 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.181194)">M</text>
+</g>
+<g transform="translate(820 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.460507)">U</text>
+</g>
+<g transform="translate(820 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.38152)">C</text>
+</g>
+<g transform="translate(820 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.204872)">M</text>
+</g>
+<g transform="translate(830 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(830 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(830 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0975002)">M</text>
+</g>
+<g transform="translate(840 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(850 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(860 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.282109)">G</text>
+</g>
+<g transform="translate(860 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.97476)">U</text>
+</g>
+<g transform="translate(870 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.460507)">U</text>
+</g>
+<g transform="translate(870 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.38152)">C</text>
+</g>
+<g transform="translate(870 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0975002)">M</text>
+</g>
+<g transform="translate(880 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.282109)">A</text>
+</g>
+<g transform="translate(880 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(880 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.204872)">M</text>
+</g>
+<g transform="translate(890 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(890 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(890 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.181194)">M</text>
+</g>
+<g transform="translate(900 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(900 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(900 10.1395)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(910 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.254466)">G</text>
+</g>
+<g transform="translate(910 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.52679)">A</text>
+</g>
+<g transform="translate(910 14.3249)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.187738)">M</text>
+</g>
+<g transform="translate(920 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,2.48322)">C</text>
+</g>
+<g transform="translate(920 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0555726)">M</text>
+</g>
+<g transform="translate(930 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,2.48322)">G</text>
+</g>
+<g transform="translate(940 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.254466)">C</text>
+</g>
+<g transform="translate(940 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.52679)">U</text>
+</g>
+<g transform="translate(950 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.254466)">A</text>
+</g>
+<g transform="translate(950 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.52679)">U</text>
+</g>
+<g transform="translate(950 14.3249)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0790632)">M</text>
+</g>
+<g transform="translate(960 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,2.48322)">U</text>
+</g>
+<g transform="translate(960 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0814744)">M</text>
+</g>
+<g transform="translate(970 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,2.48322)">U</text>
+</g>
+<g transform="translate(970 8.14764)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.000651075)">M</text>
+</g>
+<g transform="translate(980 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.282109)">U</text>
+</g>
+<g transform="translate(980 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(990 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,0.607573)">U</text>
+</g>
+<g transform="translate(990 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.01262)">C</text>
+</g>
+<g transform="translate(990 15.7423)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.110363)">M</text>
+</g>
+<g transform="translate(1000 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.460507)">C</text>
+</g>
+<g transform="translate(1000 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.38152)">A</text>
+</g>
+<g transform="translate(1000 13.7902)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0853059)">M</text>
+</g>
+<g transform="translate(1010 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.181829)">A</text>
+</g>
+<g transform="translate(1010 28.3999)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.181829)">C</text>
+</g>
+<g transform="translate(1010 26.7998)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.09097)">G</text>
+</g>
+<g transform="translate(1010 17.1992)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0839543)">M</text>
+</g>
+<g transform="translate(1020 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.607573)">C</text>
+</g>
+<g transform="translate(1020 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.01262)">U</text>
+</g>
+<g transform="translate(1020 15.7423)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.717768)">M</text>
+</g>
+<g transform="translate(1030 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.135822)">C</text>
+</g>
+<g transform="translate(1030 28.8048)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.271644)">G</text>
+</g>
+<g transform="translate(1030 26.4143)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.679111)">A</text>
+</g>
+<g transform="translate(1030 20.4381)">
+<text x="0" y="0" class="fontstylelogo logoM" transform="scale(1,0.0981681)">M</text>
+</g>
+<g transform="translate(1040 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,3.09917)">A</text>
+</g>
+<g transform="translate(1050 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.282109)">A</text>
+</g>
+<g transform="translate(1050 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,1.97476)">C</text>
+</g>
+<g transform="translate(1060 30)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,3.09917)">U</text>
+</g>
+<g transform="translate(1070 30)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,0.282109)">A</text>
+</g>
+<g transform="translate(1070 27.5174)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,1.97476)">G</text>
+</g>
+<g transform="translate(1080 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.460507)">G</text>
+</g>
+<g transform="translate(1080 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.38152)">A</text>
+</g>
+<g transform="translate(1090 30)">
+<text x="0" y="0" class="fontstylelogo logoC" transform="scale(1,0.460507)">C</text>
+</g>
+<g transform="translate(1090 25.9475)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.38152)">U</text>
+</g>
+<g transform="translate(1100 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.607573)">G</text>
+</g>
+<g transform="translate(1100 24.6534)">
+<text x="0" y="0" class="fontstylelogo logoU" transform="scale(1,1.01262)">U</text>
+</g>
+<g transform="translate(1110 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,2.48322)">G</text>
+</g>
+<g transform="translate(1120 30)">
+<text x="0" y="0" class="fontstylelogo logoG" transform="scale(1,0.254466)">G</text>
+</g>
+<g transform="translate(1120 27.7607)">
+<text x="0" y="0" class="fontstylelogo logoA" transform="scale(1,1.52679)">A</text>
+</g>
+</g>
+<path style="stroke:rgb(171,255,0)" class="outline" d="M 675,240 A250,125 0 0,0 1175,240"/>
+<path style="stroke:rgb(255,165,0)" class="outline" d="M 685,240 A240,120 0 0,0 1165,240"/>
+<path style="stroke:rgb(163,255,0)" class="outline" d="M 695,240 A230,115 0 0,0 1155,240"/>
+<path style="stroke:rgb(163,255,0)" class="outline" d="M 705,240 A220,110 0 0,0 1145,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 715,240 A210,105 0 0,0 1135,240"/>
+<path style="stroke:rgb(0,255,0)" class="outline" d="M 735,240 A190,95 0 0,0 1115,240"/>
+<path style="stroke:rgb(161,255,0)" class="outline" d="M 745,240 A180,90 0 0,0 1105,240"/>
+<path style="stroke:rgb(160,255,0)" class="outline" d="M 755,240 A170,85 0 0,0 1095,240"/>
+<path style="stroke:rgb(0,255,0)" class="outline" d="M 765,240 A160,80 0 0,0 1085,240"/>
+<path style="stroke:rgb(0,255,0)" class="outline" d="M 775,240 A150,75 0 0,0 1075,240"/>
+<path style="stroke:rgb(143,255,0)" class="outline" d="M 925,240 A70,35 0 0,0 1065,240"/>
+<path style="stroke:rgb(209,255,0)" class="outline" d="M 935,240 A60,30 0 0,0 1055,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 945,240 A50,25 0 0,0 1045,240"/>
+<path style="stroke:rgb(207,255,0)" class="outline" d="M 955,240 A40,20 0 0,0 1035,240"/>
+<path style="stroke:rgb(215,255,0)" class="outline" d="M 965,240 A30,15 0 0,0 1025,240"/>
+<path style="stroke:rgb(170,255,0)" class="outline" d="M 975,240 A20,10 0 0,0 1015,240"/>
+<path style="stroke:rgb(234,255,0)" class="outline" d="M 805,240 A55,27 0 0,0 915,240"/>
+<path style="stroke:rgb(240,255,0)" class="outline" d="M 815,240 A45,22 0 0,0 905,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 185,240 A195,97 0 0,0 575,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 195,240 A185,92 0 0,0 565,240"/>
+<path style="stroke:rgb(163,255,0)" class="outline" d="M 205,240 A175,87 0 0,0 555,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 215,240 A165,82 0 0,0 545,240"/>
+<path style="stroke:rgb(155,255,0)" class="outline" d="M 225,240 A155,77 0 0,0 535,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 235,240 A145,72 0 0,0 525,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 245,240 A135,67 0 0,0 515,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 255,240 A125,62 0 0,0 505,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 275,240 A105,52 0 0,0 485,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 285,240 A95,47 0 0,0 475,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 295,240 A85,42 0 0,0 465,240"/>
+<path style="stroke:rgb(177,255,0)" class="outline" d="M 305,240 A75,37 0 0,0 455,240"/>
+<path style="stroke:rgb(171,255,0)" class="outline" d="M 315,240 A65,32 0 0,0 445,240"/>
+<text class="fontstyleruler" x="4" y="161">1</text>
+<line x1="14" y1="161" x2="14" y2="160" stroke="#444"/>
+<line x1="24" y1="161" x2="24" y2="160" stroke="#444"/>
+<line x1="34" y1="161" x2="34" y2="160" stroke="#444"/>
+<line x1="44" y1="161" x2="44" y2="158" stroke="#444"/>
+<line x1="54" y1="161" x2="54" y2="160" stroke="#444"/>
+<line x1="64" y1="161" x2="64" y2="160" stroke="#444"/>
+<line x1="74" y1="161" x2="74" y2="160" stroke="#444"/>
+<line x1="84" y1="161" x2="84" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="94" y="161">10</text>
+<line x1="104" y1="161" x2="104" y2="160" stroke="#444"/>
+<line x1="114" y1="161" x2="114" y2="160" stroke="#444"/>
+<line x1="124" y1="161" x2="124" y2="160" stroke="#444"/>
+<line x1="134" y1="161" x2="134" y2="160" stroke="#444"/>
+<line x1="144" y1="161" x2="144" y2="158" stroke="#444"/>
+<line x1="154" y1="161" x2="154" y2="160" stroke="#444"/>
+<line x1="164" y1="161" x2="164" y2="160" stroke="#444"/>
+<line x1="174" y1="161" x2="174" y2="160" stroke="#444"/>
+<line x1="184" y1="161" x2="184" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="194" y="161">20</text>
+<line x1="204" y1="161" x2="204" y2="160" stroke="#444"/>
+<line x1="214" y1="161" x2="214" y2="160" stroke="#444"/>
+<line x1="224" y1="161" x2="224" y2="160" stroke="#444"/>
+<line x1="234" y1="161" x2="234" y2="160" stroke="#444"/>
+<line x1="244" y1="161" x2="244" y2="158" stroke="#444"/>
+<line x1="254" y1="161" x2="254" y2="160" stroke="#444"/>
+<line x1="264" y1="161" x2="264" y2="160" stroke="#444"/>
+<line x1="274" y1="161" x2="274" y2="160" stroke="#444"/>
+<line x1="284" y1="161" x2="284" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="294" y="161">30</text>
+<line x1="304" y1="161" x2="304" y2="160" stroke="#444"/>
+<line x1="314" y1="161" x2="314" y2="160" stroke="#444"/>
+<line x1="324" y1="161" x2="324" y2="160" stroke="#444"/>
+<line x1="334" y1="161" x2="334" y2="160" stroke="#444"/>
+<line x1="344" y1="161" x2="344" y2="158" stroke="#444"/>
+<line x1="354" y1="161" x2="354" y2="160" stroke="#444"/>
+<line x1="364" y1="161" x2="364" y2="160" stroke="#444"/>
+<line x1="374" y1="161" x2="374" y2="160" stroke="#444"/>
+<line x1="384" y1="161" x2="384" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="394" y="161">40</text>
+<line x1="404" y1="161" x2="404" y2="160" stroke="#444"/>
+<line x1="414" y1="161" x2="414" y2="160" stroke="#444"/>
+<line x1="424" y1="161" x2="424" y2="160" stroke="#444"/>
+<line x1="434" y1="161" x2="434" y2="160" stroke="#444"/>
+<line x1="444" y1="161" x2="444" y2="158" stroke="#444"/>
+<line x1="454" y1="161" x2="454" y2="160" stroke="#444"/>
+<line x1="464" y1="161" x2="464" y2="160" stroke="#444"/>
+<line x1="474" y1="161" x2="474" y2="160" stroke="#444"/>
+<line x1="484" y1="161" x2="484" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="494" y="161">50</text>
+<line x1="504" y1="161" x2="504" y2="160" stroke="#444"/>
+<line x1="514" y1="161" x2="514" y2="160" stroke="#444"/>
+<line x1="524" y1="161" x2="524" y2="160" stroke="#444"/>
+<line x1="534" y1="161" x2="534" y2="160" stroke="#444"/>
+<line x1="544" y1="161" x2="544" y2="158" stroke="#444"/>
+<line x1="554" y1="161" x2="554" y2="160" stroke="#444"/>
+<line x1="564" y1="161" x2="564" y2="160" stroke="#444"/>
+<line x1="574" y1="161" x2="574" y2="160" stroke="#444"/>
+<line x1="584" y1="161" x2="584" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="594" y="161">60</text>
+<line x1="604" y1="161" x2="604" y2="160" stroke="#444"/>
+<line x1="614" y1="161" x2="614" y2="160" stroke="#444"/>
+<line x1="624" y1="161" x2="624" y2="160" stroke="#444"/>
+<line x1="634" y1="161" x2="634" y2="160" stroke="#444"/>
+<line x1="644" y1="161" x2="644" y2="158" stroke="#444"/>
+<line x1="654" y1="161" x2="654" y2="160" stroke="#444"/>
+<line x1="664" y1="161" x2="664" y2="160" stroke="#444"/>
+<line x1="674" y1="161" x2="674" y2="160" stroke="#444"/>
+<line x1="684" y1="161" x2="684" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="694" y="161">70</text>
+<line x1="704" y1="161" x2="704" y2="160" stroke="#444"/>
+<line x1="714" y1="161" x2="714" y2="160" stroke="#444"/>
+<line x1="724" y1="161" x2="724" y2="160" stroke="#444"/>
+<line x1="734" y1="161" x2="734" y2="160" stroke="#444"/>
+<line x1="744" y1="161" x2="744" y2="158" stroke="#444"/>
+<line x1="754" y1="161" x2="754" y2="160" stroke="#444"/>
+<line x1="764" y1="161" x2="764" y2="160" stroke="#444"/>
+<line x1="774" y1="161" x2="774" y2="160" stroke="#444"/>
+<line x1="784" y1="161" x2="784" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="794" y="161">80</text>
+<line x1="804" y1="161" x2="804" y2="160" stroke="#444"/>
+<line x1="814" y1="161" x2="814" y2="160" stroke="#444"/>
+<line x1="824" y1="161" x2="824" y2="160" stroke="#444"/>
+<line x1="834" y1="161" x2="834" y2="160" stroke="#444"/>
+<line x1="844" y1="161" x2="844" y2="158" stroke="#444"/>
+<line x1="854" y1="161" x2="854" y2="160" stroke="#444"/>
+<line x1="864" y1="161" x2="864" y2="160" stroke="#444"/>
+<line x1="874" y1="161" x2="874" y2="160" stroke="#444"/>
+<line x1="884" y1="161" x2="884" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="894" y="161">90</text>
+<line x1="904" y1="161" x2="904" y2="160" stroke="#444"/>
+<line x1="914" y1="161" x2="914" y2="160" stroke="#444"/>
+<line x1="924" y1="161" x2="924" y2="160" stroke="#444"/>
+<line x1="934" y1="161" x2="934" y2="160" stroke="#444"/>
+<line x1="944" y1="161" x2="944" y2="158" stroke="#444"/>
+<line x1="954" y1="161" x2="954" y2="160" stroke="#444"/>
+<line x1="964" y1="161" x2="964" y2="160" stroke="#444"/>
+<line x1="974" y1="161" x2="974" y2="160" stroke="#444"/>
+<line x1="984" y1="161" x2="984" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="994" y="161">100</text>
+<line x1="1004" y1="161" x2="1004" y2="160" stroke="#444"/>
+<line x1="1014" y1="161" x2="1014" y2="160" stroke="#444"/>
+<line x1="1024" y1="161" x2="1024" y2="160" stroke="#444"/>
+<line x1="1034" y1="161" x2="1034" y2="160" stroke="#444"/>
+<line x1="1044" y1="161" x2="1044" y2="158" stroke="#444"/>
+<line x1="1054" y1="161" x2="1054" y2="160" stroke="#444"/>
+<line x1="1064" y1="161" x2="1064" y2="160" stroke="#444"/>
+<line x1="1074" y1="161" x2="1074" y2="160" stroke="#444"/>
+<text class="fontstyleruler" x="1084" y="161">109</text>
+<text class="fontstyleruler" x="1264" y="207">1</text>
+<line x1="1254" y1="204" x2="1254" y2="203" stroke="#444"/>
+<line x1="1244" y1="204" x2="1244" y2="203" stroke="#444"/>
+<line x1="1234" y1="204" x2="1234" y2="203" stroke="#444"/>
+<line x1="1224" y1="206" x2="1224" y2="203" stroke="#444"/>
+<line x1="1214" y1="204" x2="1214" y2="203" stroke="#444"/>
+<line x1="1204" y1="204" x2="1204" y2="203" stroke="#444"/>
+<line x1="1194" y1="204" x2="1194" y2="203" stroke="#444"/>
+<line x1="1184" y1="204" x2="1184" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="1174" y="207">10</text>
+<line x1="1164" y1="204" x2="1164" y2="203" stroke="#444"/>
+<line x1="1154" y1="204" x2="1154" y2="203" stroke="#444"/>
+<line x1="1144" y1="204" x2="1144" y2="203" stroke="#444"/>
+<line x1="1134" y1="204" x2="1134" y2="203" stroke="#444"/>
+<line x1="1124" y1="206" x2="1124" y2="203" stroke="#444"/>
+<line x1="1114" y1="204" x2="1114" y2="203" stroke="#444"/>
+<line x1="1104" y1="204" x2="1104" y2="203" stroke="#444"/>
+<line x1="1094" y1="204" x2="1094" y2="203" stroke="#444"/>
+<line x1="1084" y1="204" x2="1084" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="1074" y="207">20</text>
+<line x1="1064" y1="204" x2="1064" y2="203" stroke="#444"/>
+<line x1="1054" y1="204" x2="1054" y2="203" stroke="#444"/>
+<line x1="1044" y1="204" x2="1044" y2="203" stroke="#444"/>
+<line x1="1034" y1="204" x2="1034" y2="203" stroke="#444"/>
+<line x1="1024" y1="206" x2="1024" y2="203" stroke="#444"/>
+<line x1="1014" y1="204" x2="1014" y2="203" stroke="#444"/>
+<line x1="1004" y1="204" x2="1004" y2="203" stroke="#444"/>
+<line x1="994" y1="204" x2="994" y2="203" stroke="#444"/>
+<line x1="984" y1="204" x2="984" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="974" y="207">30</text>
+<line x1="964" y1="204" x2="964" y2="203" stroke="#444"/>
+<line x1="954" y1="204" x2="954" y2="203" stroke="#444"/>
+<line x1="944" y1="204" x2="944" y2="203" stroke="#444"/>
+<line x1="934" y1="204" x2="934" y2="203" stroke="#444"/>
+<line x1="924" y1="206" x2="924" y2="203" stroke="#444"/>
+<line x1="914" y1="204" x2="914" y2="203" stroke="#444"/>
+<line x1="904" y1="204" x2="904" y2="203" stroke="#444"/>
+<line x1="894" y1="204" x2="894" y2="203" stroke="#444"/>
+<line x1="884" y1="204" x2="884" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="874" y="207">40</text>
+<line x1="864" y1="204" x2="864" y2="203" stroke="#444"/>
+<line x1="854" y1="204" x2="854" y2="203" stroke="#444"/>
+<line x1="844" y1="204" x2="844" y2="203" stroke="#444"/>
+<line x1="834" y1="204" x2="834" y2="203" stroke="#444"/>
+<line x1="824" y1="206" x2="824" y2="203" stroke="#444"/>
+<line x1="814" y1="204" x2="814" y2="203" stroke="#444"/>
+<line x1="804" y1="204" x2="804" y2="203" stroke="#444"/>
+<line x1="794" y1="204" x2="794" y2="203" stroke="#444"/>
+<line x1="784" y1="204" x2="784" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="774" y="207">50</text>
+<line x1="764" y1="204" x2="764" y2="203" stroke="#444"/>
+<line x1="754" y1="204" x2="754" y2="203" stroke="#444"/>
+<line x1="744" y1="204" x2="744" y2="203" stroke="#444"/>
+<line x1="734" y1="204" x2="734" y2="203" stroke="#444"/>
+<line x1="724" y1="206" x2="724" y2="203" stroke="#444"/>
+<line x1="714" y1="204" x2="714" y2="203" stroke="#444"/>
+<line x1="704" y1="204" x2="704" y2="203" stroke="#444"/>
+<line x1="694" y1="204" x2="694" y2="203" stroke="#444"/>
+<line x1="684" y1="204" x2="684" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="674" y="207">60</text>
+<line x1="664" y1="204" x2="664" y2="203" stroke="#444"/>
+<line x1="654" y1="204" x2="654" y2="203" stroke="#444"/>
+<line x1="644" y1="204" x2="644" y2="203" stroke="#444"/>
+<line x1="634" y1="204" x2="634" y2="203" stroke="#444"/>
+<line x1="624" y1="206" x2="624" y2="203" stroke="#444"/>
+<line x1="614" y1="204" x2="614" y2="203" stroke="#444"/>
+<line x1="604" y1="204" x2="604" y2="203" stroke="#444"/>
+<line x1="594" y1="204" x2="594" y2="203" stroke="#444"/>
+<line x1="584" y1="204" x2="584" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="574" y="207">70</text>
+<line x1="564" y1="204" x2="564" y2="203" stroke="#444"/>
+<line x1="554" y1="204" x2="554" y2="203" stroke="#444"/>
+<line x1="544" y1="204" x2="544" y2="203" stroke="#444"/>
+<line x1="534" y1="204" x2="534" y2="203" stroke="#444"/>
+<line x1="524" y1="206" x2="524" y2="203" stroke="#444"/>
+<line x1="514" y1="204" x2="514" y2="203" stroke="#444"/>
+<line x1="504" y1="204" x2="504" y2="203" stroke="#444"/>
+<line x1="494" y1="204" x2="494" y2="203" stroke="#444"/>
+<line x1="484" y1="204" x2="484" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="474" y="207">80</text>
+<line x1="464" y1="204" x2="464" y2="203" stroke="#444"/>
+<line x1="454" y1="204" x2="454" y2="203" stroke="#444"/>
+<line x1="444" y1="204" x2="444" y2="203" stroke="#444"/>
+<line x1="434" y1="204" x2="434" y2="203" stroke="#444"/>
+<line x1="424" y1="206" x2="424" y2="203" stroke="#444"/>
+<line x1="414" y1="204" x2="414" y2="203" stroke="#444"/>
+<line x1="404" y1="204" x2="404" y2="203" stroke="#444"/>
+<line x1="394" y1="204" x2="394" y2="203" stroke="#444"/>
+<line x1="384" y1="204" x2="384" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="374" y="207">90</text>
+<line x1="364" y1="204" x2="364" y2="203" stroke="#444"/>
+<line x1="354" y1="204" x2="354" y2="203" stroke="#444"/>
+<line x1="344" y1="204" x2="344" y2="203" stroke="#444"/>
+<line x1="334" y1="204" x2="334" y2="203" stroke="#444"/>
+<line x1="324" y1="206" x2="324" y2="203" stroke="#444"/>
+<line x1="314" y1="204" x2="314" y2="203" stroke="#444"/>
+<line x1="304" y1="204" x2="304" y2="203" stroke="#444"/>
+<line x1="294" y1="204" x2="294" y2="203" stroke="#444"/>
+<line x1="284" y1="204" x2="284" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="274" y="207">100</text>
+<line x1="264" y1="204" x2="264" y2="203" stroke="#444"/>
+<line x1="254" y1="204" x2="254" y2="203" stroke="#444"/>
+<line x1="244" y1="204" x2="244" y2="203" stroke="#444"/>
+<line x1="234" y1="204" x2="234" y2="203" stroke="#444"/>
+<line x1="224" y1="206" x2="224" y2="203" stroke="#444"/>
+<line x1="214" y1="204" x2="214" y2="203" stroke="#444"/>
+<line x1="204" y1="204" x2="204" y2="203" stroke="#444"/>
+<line x1="194" y1="204" x2="194" y2="203" stroke="#444"/>
+<line x1="184" y1="204" x2="184" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="174" y="207">110</text>
+<line x1="164" y1="204" x2="164" y2="203" stroke="#444"/>
+<line x1="154" y1="204" x2="154" y2="203" stroke="#444"/>
+<text class="fontstyleruler" x="144" y="207">113</text>
+<line style="stroke:rgb(0,255,0)" x1="214" y1="162" x2="324" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(0,255,0)" x1="224" y1="162" x2="334" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(160,255,0)" x1="234" y1="162" x2="344" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(0,255,0)" x1="244" y1="162" x2="354" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(0,255,0)" x1="254" y1="162" x2="364" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(0,255,0)" x1="264" y1="162" x2="374" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(175,255,0)" x1="274" y1="162" x2="384" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(0,255,0)" x1="284" y1="162" x2="394" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(0,255,0)" x1="294" y1="162" x2="404" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(255,254,0)" x1="974" y1="162" x2="824" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(170,255,0)" x1="984" y1="162" x2="834" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(0,255,0)" x1="994" y1="162" x2="844" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(0,255,0)" x1="1004" y1="162" x2="854" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(163,255,0)" x1="1014" y1="162" x2="864" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(171,255,0)" x1="1024" y1="162" x2="874" y2="202" stroke="#ff0000"/>
+<line style="stroke:rgb(177,255,0)" x1="1034" y1="162" x2="884" y2="202" stroke="#ff0000"/>
+<text class="fontstyle" x="-12" y="381">MI</text>
+<rect x="20" y="372" width="60" height="10" rx="1" ry="1" style="fill:url(#grad1);stroke:#000000;stroke-width:1;"/>
+<text class="fontstyleruler" style="text-anchor:start;" x="20" y="388">0</text>
+<text class="fontstyleruler" style="text-anchor:end;" x="80" y="388">2.0</text>
+<text class="fontstyleruler" style="text-anchor:start;" x="-10" y="388">bits</text>
+</g>
+</svg>
